@@ -1,0 +1,11 @@
+BEGIN 
+print (("Riesi: False",newline));
+print (("Riesi? ",newline));
+IF CHAR yes = read char;
+ yes = "y"
+ THEN print (("Riesi: True",newline))
+ELSE IF yes  = "n"
+ THEN print(("Riesi: False",newline))
+ FI
+FI
+END
