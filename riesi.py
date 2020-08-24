@@ -1,23 +1,4 @@
-frog = '''
-       .---.`               `.---.       
-    `/syhhhyso-           -osyhhhys/`    
-   .syNMdhNNhss/``.---.``/sshNNhdMNys.   
-   +sdMh.`+MNsssssssssssssssNM+`.hMds+   
-   :syNNdhNNhssssssssssssssshNNhdNNys:   
-    /ssyhhhysssssssssssssssssyhhhyss/    
-    .ossssssssssssssssssssssssssssso.    
-   :sssssssssssssssssssssssssssssssss:   
-  /sssssssssssssssssssssssssssssssssss/  
- :sssssssssssssoosssssssoosssssssssssss: 
- osssssssssssssoosssssssoossssssssssssso 
- osssssssssssyyyyhhhhhhhyyyyssssssssssso 
- /yyyyyyhhdmmmmNNNNNNNNNNNmmmmdhhyyyyyy/ 
-  smmmNNNNNNNNNNNNNNNNNNNNNNNNNNNNNmmms  
-   /dNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNd/   
-    `:sdNNNNNNNNNNNNNNNNNNNNNNNNNds:`    
-       `-+shdNNNNNNNNNNNNNNNdhs+-`       
-             `.-:///////:-.`   
-'''
+frog = open("frog.txt").read()
 
 CEND = "\033[0m"
 CRED = "\033[91m"
