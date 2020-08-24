@@ -8,7 +8,7 @@ public class riesi {
 		char inp = in.next().charAt(0);
 		if(inp == 'y'){
 			System.out.println("Riesi: True");
-		}else if(inp == 'n'){
+		} else {
 			System.out.println("Riesi: False");
 		}
 	}
