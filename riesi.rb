@@ -1,7 +1,7 @@
 puts "Riesi: False"
 puts "Riesi?"
-inp = gets
-if inp == "y\n"
+riesi = gets
+if riesi == "y\n"
 puts "Riesi: True"
 else puts "Riesi: False"
 end
