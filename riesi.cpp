@@ -6,12 +6,10 @@ int main(void)
     bool riesi = false;
     char input;
 
-    std::cout << "Riesi: " << (riesi ? "True" : "False") << std::endl;
-    std::cout << "Riesi?";
+    std::cout << "Riesi: False" << std::endl;
+    std::cout << "Riesi? ";
 
     std::cin >> input;
-
-    input = std::tolower(input);
     riesi = (input == 'y');
 
     std::cout << "Riesi: " << (riesi ? "True" : "False") << std::endl;
