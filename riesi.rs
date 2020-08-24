@@ -11,7 +11,6 @@ fn main() {
         .unwrap();
     
     riesi = riesi
-        .to_lowercase()
         .replace("\n", "");
         
     match riesi.as_ref() {
