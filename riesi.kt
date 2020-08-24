@@ -1,9 +1,10 @@
 fun main(args: Array<String>) {
-    val frog = readLine()!!
-    val ribbit = frog.toLowerCase()
-    if (ribbit == "riesi") {
-        print(ribbit)
+    print("Riesi: False")
+    print("Riesi?")
+    val riesi = readLine()!!
+    if (riesi == "riesi") {
+        print("Riesi: True")
     } else {
-        println("not riesi")
+        println("Riesi: False")
     }
 }
