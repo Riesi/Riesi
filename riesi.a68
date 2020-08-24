@@ -1,11 +1,9 @@
-BEGIN 
+BEGIN
 print (("Riesi: False",newline));
-print (("Riesi? ",newline));
-IF CHAR yes = read char;
- yes = "y"
+print (("Riesi? "));
+IF CHAR riesi = read char;
+ riesi = "y"
  THEN print (("Riesi: True",newline))
-ELSE IF yes  = "n"
- THEN print(("Riesi: False",newline))
- FI
+ELSE print(("Riesi: False",newline))
 FI
 END

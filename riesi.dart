@@ -1,12 +1,12 @@
 import 'dart:io';
 
 void main() {
-  String frog = stdin.readLineSync();
-  String ribbit = frog.toLowerCase();
-  
-  if (ribbit == "riesi") {
-    stdout.writeln(ribbit);
+  stdout.writeln("Riesi: False");
+  stdout.writeln("Riesi? ");
+  String riesi = stdin.readLineSync();
+  if (riesi == "y") {
+    stdout.writeln("Riesi: True");
   } else {
-    stdout.writeln("not riesi");
+    stdout.writeln("Riesi: False");
   }
 }
